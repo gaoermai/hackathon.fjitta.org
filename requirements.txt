@@ -1,0 +1,5 @@
+markdown
+pelican
+typogrify
+fabric
+ghp-import
