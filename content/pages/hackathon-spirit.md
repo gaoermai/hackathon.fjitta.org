@@ -1,9 +1,8 @@
-Title: 这是属于我们的黑客马拉松
+Title: 黑马精神
 Date: 2016-5-01 10:20
 Modified: 2016-5-01 19:30
 Category: 活动介绍
-Tags: 
-Slug: about-hackathon
+Slug: hackathon-spirit
 Authors: 理事会
 Summary: 黑客马拉松（hackathon）是一种软件编程大赛的组织形式，缘起于美国。福建省信息技术人才协会在福州落地举办该活动，旨在增强福州本地IT企业沟通和交流，同时帮助为在校大学生提供一个能够近距离了解IT企业工作的窗口。
 
