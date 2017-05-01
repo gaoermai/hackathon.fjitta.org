@@ -36,4 +36,4 @@ DEFAULT_PAGINATION = False
 
 THEME = 'pelican-themes/simple-bootstrap'
 THEME = 'pelican-themes/gum'
-STATIC_PATHS = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = {'CNAME'}
