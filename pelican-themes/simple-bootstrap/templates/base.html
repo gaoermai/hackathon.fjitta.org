@@ -38,13 +38,13 @@
         <div class="container">
             <div class="header">
                 <ul class="nav nav-pills pull-right">
-                    <li class="{% block navclass %}{{ NAVCLASS }}{% endblock navclass %}"><a href="{{ SITEURL }}">Home</a></li>
+                    <li class="{% block navclass %}{{ NAVCLASS }}{% endblock navclass %}"><a href="{{ SITEURL }}/">Home</a></li>
                 {% for p in pages %}
                     <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
                 {% endfor %}
                     <li{% if author or tag %} class="active"{% endif %}{% block archclass %}{{ ARCHCLASS }}{% endblock archclass %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
                 </ul>
-                <h3 class="text-muted"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h3>
+                <h3 class="text-muted"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h3>
 				<h2 class="text-muted">{{ SITESUBTITLE }}</h2>
              </div>
             {% block content %}
@@ -54,7 +54,7 @@
                         <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">RSS</a>
                     </nav>
                     <address id="about" class="vcard body">
-                    &copy; <a href="{{SITEURL}}">{{SITENAME}}</a> Proudly powered by <a href="http://getpelican.com/">Pelican</a>
+                    &copy; <a href="{{SITEURL}}/">{{SITENAME}}</a> Proudly powered by <a href="http://getpelican.com/">Pelican</a>
                     </address><!-- /#about -->
             </footer><!-- /#contentinfo -->
         </div><!-- container -->
