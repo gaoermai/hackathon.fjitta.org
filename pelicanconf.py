@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'黑马组委会'
 SITENAME = u'黑客马拉松 | 福建省信息技术人才协会'
-SITEURL = 'http://hackathon.fjitta.org'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -20,14 +20,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
 
@@ -35,4 +35,5 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = 'pelican-themes/simple-bootstrap'
+THEME = 'pelican-themes/gum'
 STATIC_PATHS = {'extra/CNAME': {'path': 'CNAME'},}
